@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/mnich2/OpenIGTLink-1/Examples/ImageDatabaseServer/CMakeLists.txt
-C:/mnich2/OpenIGTLink-1/Blds/OpenIGTLinkConfig.cmake
-C:/mnich2/OpenIGTLink-1/Blds/OpenIGTLinkTargets.cmake
-C:/mnich2/OpenIGTLink-1/Blds/UseOpenIGTLink.cmake
-C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeImportBuildSettings.cmake
-C:/mnich2/OpenIGTLink-1/Blds/OpenIGTLinkTargets.cmake
