@@ -1,0 +1,56 @@
+# CMake generation dependency list for this directory.
+C:/mnich2/OpenIGTLink-1/CMakeLists.txt
+C:/mnich2/OpenIGTLink-1/Blds/CMakeFiles/3.4.3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/mnich2/OpenIGTLink-1/Blds/CMakeFiles/3.4.3/CMakeCCompiler.cmake
+C:/mnich2/OpenIGTLink-1/Blds/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+C:/mnich2/OpenIGTLink-1/Blds/CMakeFiles/3.4.3/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+C:/mnich2/OpenIGTLink-1/CMake/OpenIGTLinkCMakeTests.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckFunctionExists.cmake
+C:/mnich2/OpenIGTLink-1/CMake/igtlTestSocklenT.cxx
+C:/mnich2/OpenIGTLink-1/OpenIGTLinkConfigPlatform.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CheckIncludeFileCXX.cmake
+C:/mnich2/OpenIGTLink-1/igtlConfigure.h.in
+C:/mnich2/OpenIGTLink-1/igtl_typeconfig.h.in
+C:/mnich2/OpenIGTLink-1/igtlTypeConfig.h.in
+C:/mnich2/OpenIGTLink-1/UseOpenIGTLink.cmake.in
+C:/mnich2/OpenIGTLink-1/GenerateOpenIGTLinkConfig.cmake
+C:/mnich2/OpenIGTLink-1/OpenIGTLinkConfig.cmake.in
+C:/mnich2/OpenIGTLink-1/OpenIGTLinkConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeExportBuildSettings.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeBuildSettings.cmake.in
+C:/Program Files/CMake/share/cmake-3.4/Modules/Dart.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindDart.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CTestUseLaunchers.cmake
+C:/mnich2/OpenIGTLink-1/DartConfig.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/DartConfiguration.tcl.in

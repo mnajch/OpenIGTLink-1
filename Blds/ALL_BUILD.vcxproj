@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1233D352-566B-31E4-A625-141D93C6CFDD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\mnich2\OpenIGTLink-1\Blds;C:\mnich2\OpenIGTLink-1\Source;C:\mnich2\OpenIGTLink-1\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\mnich2\OpenIGTLink-1\Blds;C:\mnich2\OpenIGTLink-1\Source;C:\mnich2\OpenIGTLink-1\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\mnich2\OpenIGTLink-1\Blds;C:\mnich2\OpenIGTLink-1\Source;C:\mnich2\OpenIGTLink-1\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\mnich2\OpenIGTLink-1\Blds;C:\mnich2\OpenIGTLink-1\Source;C:\mnich2\OpenIGTLink-1\Source\igtlutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/mnich2/OpenIGTLink-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/mnich2/OpenIGTLink-1 -BC:/mnich2/OpenIGTLink-1/Blds --check-stamp-file C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/mnich2/OpenIGTLink-1/CMakeLists.txt;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\mnich2\OpenIGTLink-1\CMake\OpenIGTLinkCMakeTests.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\mnich2\OpenIGTLink-1\CMake\igtlTestSocklenT.cxx;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfigPlatform.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\mnich2\OpenIGTLink-1\igtlConfigure.h.in;C:\mnich2\OpenIGTLink-1\igtl_typeconfig.h.in;C:\mnich2\OpenIGTLink-1\igtlTypeConfig.h.in;C:\mnich2\OpenIGTLink-1\UseOpenIGTLink.cmake.in;C:\mnich2\OpenIGTLink-1\GenerateOpenIGTLinkConfig.cmake;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeExportBuildSettings.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeBuildSettings.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\Dart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindDart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestUseLaunchers.cmake;C:\mnich2\OpenIGTLink-1\DartConfig.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\DartConfiguration.tcl.in;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/mnich2/OpenIGTLink-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/mnich2/OpenIGTLink-1 -BC:/mnich2/OpenIGTLink-1/Blds --check-stamp-file C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/mnich2/OpenIGTLink-1/CMakeLists.txt;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\mnich2\OpenIGTLink-1\CMake\OpenIGTLinkCMakeTests.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\mnich2\OpenIGTLink-1\CMake\igtlTestSocklenT.cxx;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfigPlatform.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\mnich2\OpenIGTLink-1\igtlConfigure.h.in;C:\mnich2\OpenIGTLink-1\igtl_typeconfig.h.in;C:\mnich2\OpenIGTLink-1\igtlTypeConfig.h.in;C:\mnich2\OpenIGTLink-1\UseOpenIGTLink.cmake.in;C:\mnich2\OpenIGTLink-1\GenerateOpenIGTLinkConfig.cmake;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeExportBuildSettings.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeBuildSettings.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\Dart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindDart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestUseLaunchers.cmake;C:\mnich2\OpenIGTLink-1\DartConfig.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\DartConfiguration.tcl.in;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/mnich2/OpenIGTLink-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/mnich2/OpenIGTLink-1 -BC:/mnich2/OpenIGTLink-1/Blds --check-stamp-file C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/mnich2/OpenIGTLink-1/CMakeLists.txt;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\mnich2\OpenIGTLink-1\CMake\OpenIGTLinkCMakeTests.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\mnich2\OpenIGTLink-1\CMake\igtlTestSocklenT.cxx;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfigPlatform.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\mnich2\OpenIGTLink-1\igtlConfigure.h.in;C:\mnich2\OpenIGTLink-1\igtl_typeconfig.h.in;C:\mnich2\OpenIGTLink-1\igtlTypeConfig.h.in;C:\mnich2\OpenIGTLink-1\UseOpenIGTLink.cmake.in;C:\mnich2\OpenIGTLink-1\GenerateOpenIGTLinkConfig.cmake;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeExportBuildSettings.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeBuildSettings.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\Dart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindDart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestUseLaunchers.cmake;C:\mnich2\OpenIGTLink-1\DartConfig.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\DartConfiguration.tcl.in;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/mnich2/OpenIGTLink-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/mnich2/OpenIGTLink-1 -BC:/mnich2/OpenIGTLink-1/Blds --check-stamp-file C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/mnich2/OpenIGTLink-1/CMakeLists.txt;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\mnich2\OpenIGTLink-1\CMake\OpenIGTLinkCMakeTests.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\mnich2\OpenIGTLink-1\CMake\igtlTestSocklenT.cxx;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfigPlatform.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\mnich2\OpenIGTLink-1\igtlConfigure.h.in;C:\mnich2\OpenIGTLink-1\igtl_typeconfig.h.in;C:\mnich2\OpenIGTLink-1\igtlTypeConfig.h.in;C:\mnich2\OpenIGTLink-1\UseOpenIGTLink.cmake.in;C:\mnich2\OpenIGTLink-1\GenerateOpenIGTLinkConfig.cmake;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\mnich2\OpenIGTLink-1\OpenIGTLinkConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeExportBuildSettings.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeBuildSettings.cmake.in;C:\Program Files\CMake\share\cmake-3.4\Modules\Dart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindDart.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestUseLaunchers.cmake;C:\mnich2\OpenIGTLink-1\DartConfig.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\DartConfiguration.tcl.in;C:\mnich2\OpenIGTLink-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\mnich2\OpenIGTLink-1\Blds\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Bind/BindClient.vcxproj">
+      <Project>99ECA9FD-379A-334D-9775-ADF7CB0927AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Capability/CapabilityClient.vcxproj">
+      <Project>89C60438-A873-3FDA-854A-AE5DFE0FD941</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Capability/CapabilityServer.vcxproj">
+      <Project>FA65AA76-EAA1-30F8-BA2F-255FB5907A24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/ImageDatabaseServer/ImageDatabaseServer.vcxproj">
+      <Project>E939F7EF-3A72-3588-B923-21756EEA4B48</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/ImageMeta/ImageMetaClient.vcxproj">
+      <Project>861A2535-B1AA-3EA9-A30A-92B0C1A06256</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/ImageMeta/ImageMetaServer.vcxproj">
+      <Project>41C829C0-B88F-36B2-90E0-D44300643E34</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Imager/ImagerClient.vcxproj">
+      <Project>B2F41956-0883-36CF-861C-95E3661C2645</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Imager/ImagerClient2.vcxproj">
+      <Project>EAD03327-D2DF-31B1-85F1-98C0AF778EBB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Imager/ImagerClient3.vcxproj">
+      <Project>5DB3457D-BBE6-3C7B-9AD5-BEFA42B59467</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Imager/ImagerServer.vcxproj">
+      <Project>F8E0FAEB-3FC5-30D4-A571-4A861E0D992B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Imager/ImagerServer3.vcxproj">
+      <Project>227B48D1-6F37-3E16-9059-921F534FA0B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/ImageMeta/LabelMetaClient.vcxproj">
+      <Project>CAAEF964-8D10-3103-997B-6096F8E85118</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/ImageMeta/LabelMetaServer.vcxproj">
+      <Project>8C72CF2F-D329-3161-A3C5-E90540D15864</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Thread/MultipleMethodExecute.vcxproj">
+      <Project>A7E1E2F7-7EFC-3823-98FD-97BC82A2EE1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Lab_PWP/NowyKlient.vcxproj">
+      <Project>5D98A849-DB2E-3981-B549-267FF3227359</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Lab_PWP/NowySerwer.vcxproj">
+      <Project>31A2C2E0-4BFD-349B-8A68-0BABBD57EB44</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Source/OpenIGTLink.vcxproj">
+      <Project>27A6AFE1-6946-3F7E-86CE-99F8FCC44033</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Point/PointClient.vcxproj">
+      <Project>4E9EE6DF-5FBD-30ED-8584-C7D33B4378A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Point/PointClient3.vcxproj">
+      <Project>8CDD6429-BA11-3DDE-B48E-85402B5AC766</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Point/PointListServer.vcxproj">
+      <Project>2C3F30E3-BCF5-3C2B-8573-0645693D2C06</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Point/PointServer.vcxproj">
+      <Project>F35EF581-7CDB-3C17-9057-11A5804148B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Point/PointServer3.vcxproj">
+      <Project>C009759E-8ADB-3EB0-B814-92A965F65052</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/PolyData/PolyDataClient.vcxproj">
+      <Project>CA5998DE-EC09-3F80-A978-9A621ED7F270</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/PolyData/PolyDataServer.vcxproj">
+      <Project>276CB392-5B55-3515-B3DE-449B2849DBFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/QuaternionTrackingData/QuaternionTrackingDataClient.vcxproj">
+      <Project>1DA55905-71D4-3333-8532-A842739AD093</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/QuaternionTrackingData/QuaternionTrackingDataServer.vcxproj">
+      <Project>CFF26452-C52C-3F13-8BDE-54C0C13E918A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Receiver/ReceiveClient.vcxproj">
+      <Project>F43A13B4-18FC-35B9-A4E9-E1FDA82F1052</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Receiver/ReceiveServer.vcxproj">
+      <Project>9F0608FF-1C2F-3961-8F19-662A197F90B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/SessionManager/SessionManagerServer.vcxproj">
+      <Project>D9925B5D-CD94-37BA-A7E6-CCFFDE424BEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Thread/SingleMethodExecute.vcxproj">
+      <Project>05BCA55E-6CE7-3097-A6DD-E495892B5D21</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Thread/SpawnThread.vcxproj">
+      <Project>E1DDF0FB-9E02-3427-B85F-53586AEBE081</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Status/StatusClient.vcxproj">
+      <Project>48712B38-C5A8-31E1-B72F-CE20A6B81CB5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Status/StatusServer.vcxproj">
+      <Project>B647F046-8E50-3FDF-B27B-4F6486FB7BC9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/String/StringClient.vcxproj">
+      <Project>0F70DAD5-8333-3847-86BB-14D189D27868</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/String/StringEchoServer.vcxproj">
+      <Project>3FF1E57B-E6D3-3527-813D-2F985623E99D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/String/StringServer.vcxproj">
+      <Project>2A250333-6B96-3991-9B95-6EC527EFAC1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Tracker/TrackerClient.vcxproj">
+      <Project>BD6DE1C1-54C2-32D6-A0EC-FB4F64026D8E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Tracker/TrackerClient2.vcxproj">
+      <Project>FE423B90-FFE4-32B4-8C66-E4C9BE2F4D24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Tracker/TrackerClient3.vcxproj">
+      <Project>7E153780-5F3B-3CB5-AF2F-39E86EEE4DFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Tracker/TrackerServer.vcxproj">
+      <Project>6D8D9691-F8D8-31C2-8087-7D98F145C55E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Tracker/TrackerServer2.vcxproj">
+      <Project>0AFCB4D3-89FF-3721-9BD0-CCF128E54632</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/TrackingData/TrackingDataClient.vcxproj">
+      <Project>256E555E-31CA-33ED-9964-B72C55E3BE1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/TrackingData/TrackingDataServer.vcxproj">
+      <Project>AF9F79BB-85F4-3239-8BFF-EBF7696B60E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Trajectory/TrajectoryClient.vcxproj">
+      <Project>39E1BEFB-0E8F-34AE-86D5-9A6F616288C1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Examples/Trajectory/TrajectoryServer.vcxproj">
+      <Project>912961DA-618A-33CF-98BD-16BBF165177A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/gmock-build/gmock.vcxproj">
+      <Project>B05A25E5-5F87-3DAC-9F4B-1EB8E6699F1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/gmock-build/gmock_main.vcxproj">
+      <Project>DCE4B4E1-466B-3A31-A2B7-04D587E1FC52</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/gmock-build/gtest/gtest.vcxproj">
+      <Project>9689BED8-AD9E-37FA-A6FE-CD08EC0E77CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/gmock-build/gtest/gtest_main.vcxproj">
+      <Project>CAD52691-0AE2-3391-B9AB-47F0614043F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlBindMessageTest.vcxproj">
+      <Project>22E6D4DC-EB0C-398E-994B-D886A472C33A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlCapabilityMessageTest.vcxproj">
+      <Project>6E307858-6953-3184-8B19-DBDEF877612D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlColorTableMessageTest.vcxproj">
+      <Project>3C280CE3-D0F8-38B9-8D44-1F455599C4E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlCommandMessageTest.vcxproj">
+      <Project>FC6A8FAB-BECC-31B1-B3B9-3917D4F1F11C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlConditionVariableTest.vcxproj">
+      <Project>4FA3E04F-5ED9-3AFB-A69C-99B094440CF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlImageMessage2Test.vcxproj">
+      <Project>BD40FC5E-162D-34B1-B6E6-2601B02AE7CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlImageMessageTest.vcxproj">
+      <Project>99B9342F-6E56-31F2-9A6E-E6FB6D140B0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlImageMetaMessageTest.vcxproj">
+      <Project>90638F0A-BC59-37B7-995A-5D1FC6276CCD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlLabelMetaMessageTest.vcxproj">
+      <Project>3778E19F-3808-390C-8D9A-A571A230F038</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlMessageBaseTest.vcxproj">
+      <Project>A97F99A2-9E87-3FDC-8C8D-D71DE70ECDF9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlMessageFactoryTest.vcxproj">
+      <Project>FF569B5D-B821-3A79-8FAA-FD04D799BBDA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlMultiThreaderTest1.vcxproj">
+      <Project>C769C5D1-3DA4-33C0-9FA6-30B6CA5203EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlMultiThreaderTest2.vcxproj">
+      <Project>41A31816-25A9-3D31-AA72-73763DBA3E4F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlMultiThreaderTest3.vcxproj">
+      <Project>9D3A57E7-E8DD-3E58-A0DE-E0B91B3986A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlNDArrayMessageTest.vcxproj">
+      <Project>F293720C-AD34-367C-9A7D-DC23812BA802</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlPointMessageTest.vcxproj">
+      <Project>336A13B0-64B8-333C-B5D2-0D5DB7337985</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlPolyDataMessageTest.vcxproj">
+      <Project>72716B0E-592E-3A7A-AA10-75B24059EE50</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlPositionMessageTest.vcxproj">
+      <Project>4E2C7580-B0B5-3249-9055-7305F8A26D03</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlSensorMessageTest.vcxproj">
+      <Project>74623A83-EFE3-3FD2-9E6B-1B353B7FBB6E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlStatusMessageTest.vcxproj">
+      <Project>C7B97F39-3702-3A17-8D09-367E05903C00</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlStringMessageTest.vcxproj">
+      <Project>9825828B-1A1B-39A5-B3FA-688D3F685D4E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlTimeStampTest1.vcxproj">
+      <Project>22EA2C4A-44E2-3D04-B6E9-5AAAB863AEBC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlTrackingDataMessageTest.vcxproj">
+      <Project>25C16976-25F3-301A-A035-0CC98E652702</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlTrajectoryMessageTest.vcxproj">
+      <Project>73A96E69-FCAC-3F1A-98D8-70C16B8DB7FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlTransformMessageTest.vcxproj">
+      <Project>E03A4E11-68F4-304E-A840-BADA2B788290</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_bind_test.vcxproj">
+      <Project>4636984D-39B6-3292-9E7E-3D740501E653</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_capability_test.vcxproj">
+      <Project>12526AF7-D22B-395E-B641-8EECFF7C5BEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_colortable_test.vcxproj">
+      <Project>0600160F-8117-3354-98E9-572184343989</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_header_test.vcxproj">
+      <Project>C3C6FFD0-7E7C-32DC-ACE0-7A8D18601D26</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_image_test.vcxproj">
+      <Project>961F88C0-72D5-39A3-8A09-AE63334C31FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_imgmeta_test.vcxproj">
+      <Project>7655228A-C95C-3601-A893-32E72B5BFD4A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_lbmeta_test.vcxproj">
+      <Project>FA32B094-3A3D-3344-B7D2-31A0A1F2657B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_ndarray_test.vcxproj">
+      <Project>693ECB3A-2506-3B40-B25F-3287AC3E6F34</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_point_test.vcxproj">
+      <Project>E083186D-8B85-3385-B9CC-4280B9925D52</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_polydata_test.vcxproj">
+      <Project>A20C01F7-46D3-3425-8D15-D058C35BDA78</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_position_test.vcxproj">
+      <Project>1FDAF5D9-9AFC-3530-8D05-D01054CD44C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_sensor_test.vcxproj">
+      <Project>19E3DEAA-0B4F-390D-95DD-66D0B42D9DC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_status_test.vcxproj">
+      <Project>4F3C11B7-CFF2-3CBF-BFE3-4FF88D0C51D4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_string_test.vcxproj">
+      <Project>4C8222FF-8A5D-31C6-8134-3893C9D39A3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_tdata_test.vcxproj">
+      <Project>3ED58D94-7086-33FC-90FC-EDDE487894B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_trajectory_test.vcxproj">
+      <Project>0EA625AE-7EAF-38AC-A846-99B8BF85FD59</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_transform_test.vcxproj">
+      <Project>47981A16-BBC2-3C23-9DB6-8E12EA6C2DA5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil/igtl_util_test.vcxproj">
+      <Project>B1B0C36B-9EB1-37C8-AF84-A45768D6877E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/mnich2/OpenIGTLink-1/Blds/Source/igtlutil/igtlutil.vcxproj">
+      <Project>76BEE854-36EE-33C3-B0CC-DBBA389A622D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

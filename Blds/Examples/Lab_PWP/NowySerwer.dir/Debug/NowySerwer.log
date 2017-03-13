@@ -1,0 +1,35 @@
+﻿Build started 2017-03-13 13:16:44.
+     1>Project "C:\mnich2\OpenIGTLink-1\Blds\Examples\Lab_PWP\NowySerwer.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "NowySerwer.dir\Debug\NowySerwer.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "NowySerwer.dir\Debug\NowySerwer.unsuccessfulbuild".
+       CustomBuild:
+         Building Custom Rule C:/mnich2/OpenIGTLink-1/Examples/Lab_PWP/CMakeLists.txt
+         CMake does not need to re-run because C:\mnich2\OpenIGTLink-1\Blds\Examples\Lab_PWP\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\mnich2\OpenIGTLink-1\Source\igtlutil" /I"C:\mnich2\OpenIGTLink-1\Source" /I"C:\mnich2\OpenIGTLink-1\Blds" /I"C:\mnich2\OpenIGTLink-1\Blds\Source" /I"C:\mnich2\OpenIGTLink-1\Blds\Source\igtlutil" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"NowySerwer.dir\Debug\\" /Fd"NowySerwer.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Examples\Lab_PWP\NowySerwer.cxx
+         NowySerwer.cxx
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest.res" NowySerwer.dir\Debug\NowySerwer_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\mnich2\OpenIGTLink-1\Blds\bin\Debug\NowySerwer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\bin\Debug\OpenIGTLink.lib ws2_32.lib wsock32.lib /MANIFEST /ManifestFile:"NowySerwer.dir\Debug\NowySerwer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.lib" /MACHINE:X86 NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest.res
+         NowySerwer.dir\Debug\NowySerwer.obj  /machine:X86 /debug 
+            Creating library C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.lib and object C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.exp
+       Manifest:
+         Deleting file "NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest" /manifest NowySerwer.dir\Debug\NowySerwer.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest.res" NowySerwer.dir\Debug\NowySerwer_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\mnich2\OpenIGTLink-1\Blds\bin\Debug\NowySerwer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\bin\Debug\OpenIGTLink.lib ws2_32.lib wsock32.lib /MANIFEST /ManifestFile:"NowySerwer.dir\Debug\NowySerwer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.lib" /MACHINE:X86 NowySerwer.dir\Debug\NowySerwer.exe.embed.manifest.res
+         NowySerwer.dir\Debug\NowySerwer.obj  /machine:X86 /debug 
+            Creating library C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.lib and object C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/NowySerwer.exp
+         NowySerwer.vcxproj -> C:\mnich2\OpenIGTLink-1\Blds\bin\Debug\NowySerwer.exe
+       FinalizeBuildStatus:
+         Deleting file "NowySerwer.dir\Debug\NowySerwer.unsuccessfulbuild".
+         Touching "NowySerwer.dir\Debug\NowySerwer.lastbuildstate".
+     1>Done Building Project "C:\mnich2\OpenIGTLink-1\Blds\Examples\Lab_PWP\NowySerwer.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58

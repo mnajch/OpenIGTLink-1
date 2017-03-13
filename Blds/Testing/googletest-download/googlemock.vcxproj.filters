@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\f46a0ac83be63d2822b2014fb35ce3d9\googlemock-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\d668428f73555ed137a0d55fe2a756c9\googlemock-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\d77ee3e64155e9f9060bc770e199a675\googlemock.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\googlemock" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E63F3A68-42B1-3A04-8ACF-45007AFFAF09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1265 @@
+Start testing: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+----------------------------------------------------------
+1/62 Testing: igtlMultiThreaderTest1
+1/62 Test: igtlMultiThreaderTest1
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMultiThreaderTest1.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMultiThreaderTest1" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMultiThreaderTest1" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMultiThreaderTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/62 Testing: igtlMultiThreaderTest2
+2/62 Test: igtlMultiThreaderTest2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMultiThreaderTest2.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMultiThreaderTest2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMultiThreaderTest2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMultiThreaderTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/62 Testing: igtlMultiThreaderTest3
+3/62 Test: igtlMultiThreaderTest3
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMultiThreaderTest3.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMultiThreaderTest3" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMultiThreaderTest3" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMultiThreaderTest3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/62 Testing: igtlMessageFactoryTest
+4/62 Test: igtlMessageFactoryTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMessageFactoryTest.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMessageFactoryTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Caught exception e=Error: In ..\..\Source\igtlMessageFactory.cxx, line 158, receiving message of type:BANANA
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMessageFactoryTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMessageFactoryTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/62 Testing: igtlTimeStampTest1
+5/62 Test: igtlTimeStampTest1
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTimeStampTest1.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTimeStampTest1" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTimeStampTest1" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTimeStampTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/62 Testing: igtlMessageBaseTest
+6/62 Test: igtlMessageBaseTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMessageBaseTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMessageBaseTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMessageBaseTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMessageBaseTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/62 Testing: igtlConditionVariableTest
+7/62 Test: igtlConditionVariableTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlConditionVariableTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlConditionVariableTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlConditionVariableTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlConditionVariableTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/62 Testing: igtlImageMessageTest
+8/62 Test: igtlImageMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlImageMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/62 Testing: igtlImageMessage2Test
+9/62 Test: igtlImageMessage2Test
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlImageMessage2Test.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMessage2Test" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMessage2Test" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMessage2Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/62 Testing: igtlCapabilityMessageTest
+10/62 Test: igtlCapabilityMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlCapabilityMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlCapabilityMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlCapabilityMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlCapabilityMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/62 Testing: igtlStatusMessageTest
+11/62 Test: igtlStatusMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlStatusMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlStatusMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlStatusMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlStatusMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/62 Testing: igtlTransformMessageTest
+12/62 Test: igtlTransformMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTransformMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTransformMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TransformMessageTest
+[ RUN      ] TransformMessageTest.PackFormatVersion1
+[       OK ] TransformMessageTest.PackFormatVersion1 (0 ms)
+[ RUN      ] TransformMessageTest.UnpackFormatVersion1
+[       OK ] TransformMessageTest.UnpackFormatVersion1 (0 ms)
+[----------] 2 tests from TransformMessageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTransformMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTransformMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/62 Testing: igtlPositionMessageTest
+13/62 Test: igtlPositionMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlPositionMessageTest.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlPositionMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from PositionMessageTest
+[ RUN      ] PositionMessageTest.PackFormateVersion1
+[       OK ] PositionMessageTest.PackFormateVersion1 (0 ms)
+[ RUN      ] PositionMessageTest.UnpackFormateVersion1
+[       OK ] PositionMessageTest.UnpackFormateVersion1 (0 ms)
+[ RUN      ] PositionMessageTest.PackFormatVersion2
+[       OK ] PositionMessageTest.PackFormatVersion2 (0 ms)
+[ RUN      ] PositionMessageTest.UnpackFormatVersion2
+[       OK ] PositionMessageTest.UnpackFormatVersion2 (1 ms)
+[----------] 4 tests from PositionMessageTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlPositionMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlPositionMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/62 Testing: igtlBindMessageTest
+14/62 Test: igtlBindMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlBindMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlBindMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtlBindMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlBindMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/62 Testing: igtlColorTableMessageTest
+15/62 Test: igtlColorTableMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlColorTableMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlColorTableMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlColorTableMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlColorTableMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/62 Testing: igtlLabelMetaMessageTest
+16/62 Test: igtlLabelMetaMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlLabelMetaMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlLabelMetaMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlLabelMetaMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlLabelMetaMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/62 Testing: igtlNDArrayMessageTest
+17/62 Test: igtlNDArrayMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlNDArrayMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlNDArrayMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtlNDArrayMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlNDArrayMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/62 Testing: igtlImageMetaMessageTest
+18/62 Test: igtlImageMetaMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlLabelMetaMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMetaMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMetaMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMetaMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/62 Testing: igtlPointMessageTest
+19/62 Test: igtlPointMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlPointMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlPointMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtlPointMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlPointMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/62 Testing: igtlPolyDataMessageTest
+20/62 Test: igtlPolyDataMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlPolyDataMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlPolyDataMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlPolyDataMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlPolyDataMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/62 Testing: igtlSensorMessageTest
+21/62 Test: igtlSensorMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlSensorMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlSensorMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlSensorMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlSensorMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/62 Testing: igtlStringMessageTest
+22/62 Test: igtlStringMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlStringMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlStringMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlStringMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlStringMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/62 Testing: igtlTrackingDataMessageTest
+23/62 Test: igtlTrackingDataMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTrackingDataMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTrackingDataMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTrackingDataMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTrackingDataMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/62 Testing: igtlTrajectoryMessageTest
+24/62 Test: igtlTrajectoryMessageTest
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTrajectoryMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTrajectoryMessageTest" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TrajectoryMessageTest
+[ RUN      ] TrajectoryMessageTest.PackFormatVersion1
+[       OK ] TrajectoryMessageTest.PackFormatVersion1 (0 ms)
+[ RUN      ] TrajectoryMessageTest.UnpackFormatVersion1
+[       OK ] TrajectoryMessageTest.UnpackFormatVersion1 (0 ms)
+[----------] 2 tests from TrajectoryMessageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTrajectoryMessageTest" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTrajectoryMessageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/62 Testing: igtlMessageBaseTestFormatVersion2
+25/62 Test: igtlMessageBaseTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlMessageBaseTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlMessageBaseTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlMessageBaseTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlMessageBaseTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/62 Testing: igtlImageMessageTestFormatVersion2
+26/62 Test: igtlImageMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlImageMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/62 Testing: igtlImageMessage2TestFormatVersion2
+27/62 Test: igtlImageMessage2TestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlImageMessage2Test.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMessage2TestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMessage2TestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMessage2TestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/62 Testing: igtlBindMessageTestFormatVersion2
+28/62 Test: igtlBindMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlBindMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlBindMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlBindMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlBindMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/62 Testing: igtlCapabilityMessageTestFormatVersion2
+29/62 Test: igtlCapabilityMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlCapabilityMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlCapabilityMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlCapabilityMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlCapabilityMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/62 Testing: igtlColorTableMessageTestFormatVersion2
+30/62 Test: igtlColorTableMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlColorTableMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlColorTableMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlColorTableMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlColorTableMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/62 Testing: igtlConditionVariableTestFormatVersion2
+31/62 Test: igtlConditionVariableTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlConditionVariableTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlConditionVariableTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlConditionVariableTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlConditionVariableTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/62 Testing: igtlLabelMetaMessageTestFormatVersion2
+32/62 Test: igtlLabelMetaMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlLabelMetaMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlLabelMetaMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlLabelMetaMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlLabelMetaMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/62 Testing: igtlNDArrayMessageTestFormatVersion2
+33/62 Test: igtlNDArrayMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlNDArrayMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlNDArrayMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlNDArrayMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlNDArrayMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/62 Testing: igtlImageMetaMessageTestFormatVersion2
+34/62 Test: igtlImageMetaMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlLabelMetaMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlImageMetaMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlImageMetaMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlImageMetaMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/62 Testing: igtlPointMessageTestFormatVersion2
+35/62 Test: igtlPointMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlPointMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlPointMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlPointMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlPointMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/62 Testing: igtlPolyDataMessageTestFormatVersion2
+36/62 Test: igtlPolyDataMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlPolyDataMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlPolyDataMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtlPolyDataMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlPolyDataMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/62 Testing: igtlSensorMessageTestFormatVersion2
+37/62 Test: igtlSensorMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlSensorMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlSensorMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlSensorMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlSensorMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/62 Testing: igtlStatusMessageTestFormatVersion2
+38/62 Test: igtlStatusMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlStatusMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlStatusMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlStatusMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlStatusMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/62 Testing: igtlStringMessageTestFormatVersion2
+39/62 Test: igtlStringMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlStringMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlStringMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlStringMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlStringMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/62 Testing: igtlTrackingDataMessageTestFormatVersion2
+40/62 Test: igtlTrackingDataMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTrackingDataMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTrackingDataMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TrackingMessageTest
+[ RUN      ] TrackingMessageTest.PackFormatVersion2
+[       OK ] TrackingMessageTest.PackFormatVersion2 (1 ms)
+[ RUN      ] TrackingMessageTest.UnpackFormatVersion2
+[       OK ] TrackingMessageTest.UnpackFormatVersion2 (0 ms)
+[----------] 2 tests from TrackingMessageTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTrackingDataMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTrackingDataMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/62 Testing: igtlTrajectoryMessageTestFormatVersion2
+41/62 Test: igtlTrajectoryMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTrajectoryMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTrajectoryMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TrajectoryMessageTest
+[ RUN      ] TrajectoryMessageTest.PackFormatVersion2
+[       OK ] TrajectoryMessageTest.PackFormatVersion2 (1 ms)
+[ RUN      ] TrajectoryMessageTest.UnpackFormatVersion2
+[       OK ] TrajectoryMessageTest.UnpackFormatVersion2 (0 ms)
+[----------] 2 tests from TrajectoryMessageTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTrajectoryMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTrajectoryMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/62 Testing: igtlTransformMessageTestFormatVersion2
+42/62 Test: igtlTransformMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlTransformMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlTransformMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TransformMessageTest
+[ RUN      ] TransformMessageTest.PackFormatVersion2
+0  0  0 
+  
+
+1  2  2   
+2  84  84 T  T
+3  82  82 R  R
+4  65  65 A  A
+5  78  78 N  N
+6  83  83 S  S
+7  70  70 F  F
+8  79  79 O  O
+9  82  82 R  R
+10  77  77 M  M
+11  0  0 
+  
+
+12  0  0 
+  
+
+13  0  0 
+  
+
+14  68  68 D  D
+15  101  101 e  e
+16  118  118 v  v
+17  105  105 i  i
+18  99  99 c  c
+19  101  101 e  e
+20  78  78 N  N
+21  97  97 a  a
+22  109  109 m  m
+23  101  101 e  e
+24  0  0 
+  
+
+25  0  0 
+  
+
+26  0  0 
+  
+
+27  0  0 
+  
+
+28  0  0 
+  
+
+29  0  0 
+  
+
+30  0  0 
+  
+
+31  0  0 
+  
+
+32  0  0 
+  
+
+33  0  0 
+  
+
+34  0  0 
+  
+
+35  0  0 
+  
+
+36  0  0 
+  
+
+37  0  0 
+  
+
+38  73  73 I  I
+39  150  150 –  –
+40  2  2   
+41  212  212 Ô  Ô
+42  0  0 
+  
+
+43  0  0 
+  
+
+44  0  0 
+  
+
+45  0  0 
+  
+
+46  0  0 
+  
+
+47  0  0 
+  
+
+48  0  0 
+  
+
+49  117  117 u  u
+50  246  246 ö  ö
+51  152  152 ˜  ˜
+52  246  246 ö  ö
+53  79  79 O  O
+54  218  218 Ú  Ú
+55  226  226 â  â
+56  102  102 f  f
+57  221  221 Ý  Ý
+[       OK ] TransformMessageTest.PackFormatVersion2 (3 ms)
+[ RUN      ] TransformMessageTest.UnpackFormatVersion2
+[       OK ] TransformMessageTest.UnpackFormatVersion2 (0 ms)
+[----------] 2 tests from TransformMessageTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (3 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlTransformMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlTransformMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/62 Testing: igtlCommandMessageTestFormatVersion1
+43/62 Test: igtlCommandMessageTestFormatVersion1
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlCommandMessageTest.exe" "--gtest_filter=*.*FormatVersion1"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlCommandMessageTestFormatVersion1" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion1
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlCommandMessageTestFormatVersion1" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlCommandMessageTestFormatVersion1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/62 Testing: igtlCommandMessageTestFormatVersion2
+44/62 Test: igtlCommandMessageTestFormatVersion2
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtlCommandMessageTest.exe" "--gtest_filter=*.*FormatVersion2"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing
+"igtlCommandMessageTestFormatVersion2" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Note: Google Test filter = *.*FormatVersion2
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from CommandMessageTest
+[ RUN      ] CommandMessageTest.PackFormatVersion2
+[       OK ] CommandMessageTest.PackFormatVersion2 (0 ms)
+[ RUN      ] CommandMessageTest.UnpackFormatVersion2
+[       OK ] CommandMessageTest.UnpackFormatVersion2 (0 ms)
+[----------] 2 tests from CommandMessageTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtlCommandMessageTestFormatVersion2" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtlCommandMessageTestFormatVersion2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/62 Testing: igtl_image_test_01
+45/62 Test: igtl_image_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_image_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_image_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_image_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_image_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/62 Testing: igtl_header_test_01
+46/62 Test: igtl_header_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_header_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_header_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_header_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_header_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/62 Testing: igtl_transform_test_01
+47/62 Test: igtl_transform_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_transform_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_transform_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_transform_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_transform_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/62 Testing: igtl_status_test_01
+48/62 Test: igtl_status_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_status_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_status_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_status_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_status_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/62 Testing: igtl_util_test_01
+49/62 Test: igtl_util_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_util_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_util_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_util_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_util_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/62 Testing: igtl_position_test_01
+50/62 Test: igtl_position_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_position_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_position_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_position_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_position_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/62 Testing: igtl_capability_test_01
+51/62 Test: igtl_capability_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_capability_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_capability_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_capability_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_capability_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/62 Testing: igtl_colortable_test_01
+52/62 Test: igtl_colortable_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_colortable_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_colortable_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_colortable_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_colortable_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/62 Testing: igtl_imgmeta_test_01
+53/62 Test: igtl_imgmeta_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_imgmeta_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_imgmeta_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_imgmeta_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_imgmeta_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/62 Testing: igtl_lbmeta_test_01
+54/62 Test: igtl_lbmeta_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_lbmeta_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_lbmeta_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_lbmeta_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_lbmeta_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/62 Testing: igtl_point_test_01
+55/62 Test: igtl_point_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_point_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_point_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_point_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_point_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/62 Testing: igtl_tdata_test_01
+56/62 Test: igtl_tdata_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_tdata_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_tdata_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_tdata_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_tdata_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/62 Testing: igtl_trajectory_test_01
+57/62 Test: igtl_trajectory_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_trajectory_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_trajectory_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_trajectory_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_trajectory_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/62 Testing: igtl_sensor_test_01
+58/62 Test: igtl_sensor_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_sensor_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_sensor_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_sensor_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_sensor_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/62 Testing: igtl_string_test_01
+59/62 Test: igtl_string_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_string_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_string_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_string_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_string_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/62 Testing: igtl_bind_test_01
+60/62 Test: igtl_bind_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_bind_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_bind_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_bind_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_bind_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/62 Testing: igtl_ndarray_test_01
+61/62 Test: igtl_ndarray_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_ndarray_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_ndarray_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_ndarray_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_ndarray_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/62 Testing: igtl_polydata_test_01
+62/62 Test: igtl_polydata_test_01
+Command: "C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/igtl_polydata_test.exe"
+Directory: C:/mnich2/OpenIGTLink-1/Blds/Testing/igtlutil
+"igtl_polydata_test_01" start time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"igtl_polydata_test_01" end time: Mar 13 12:01 Œrodkowoeuropejski czas stand.
+"igtl_polydata_test_01" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 13 12:01 Œrodkowoeuropejski czas stand.

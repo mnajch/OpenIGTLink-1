@@ -1,0 +1,4 @@
+C:/mnich2/OpenIGTLink-1/Blds/Testing/googletest-download/CMakeFiles/ALL_BUILD.dir
+C:/mnich2/OpenIGTLink-1/Blds/Testing/googletest-download/CMakeFiles/googletest.dir
+C:/mnich2/OpenIGTLink-1/Blds/Testing/googletest-download/CMakeFiles/ZERO_CHECK.dir
+C:/mnich2/OpenIGTLink-1/Blds/Testing/googletest-download/CMakeFiles/googlemock.dir

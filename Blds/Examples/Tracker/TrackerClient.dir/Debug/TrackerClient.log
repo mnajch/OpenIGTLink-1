@@ -1,0 +1,28 @@
+﻿Build started 2017-03-13 12:45:17.
+     1>Project "C:\mnich2\OpenIGTLink-1\Blds\Examples\Tracker\TrackerClient.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "TrackerClient.dir\Debug\TrackerClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\mnich2\OpenIGTLink-1\Blds\bin\Debug\TrackerClient.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\bin\Debug\OpenIGTLink.lib ws2_32.lib wsock32.lib /MANIFEST /ManifestFile:"TrackerClient.dir\Debug\TrackerClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/TrackerClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/TrackerClient.lib" /MACHINE:X86 TrackerClient.dir\Debug\TrackerClient.exe.embed.manifest.res
+         TrackerClient.dir\Debug\TrackerClient.obj  /machine:X86 /debug 
+            Creating library C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/TrackerClient.lib and object C:/mnich2/OpenIGTLink-1/Blds/bin/Debug/TrackerClient.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"TrackerClient.dir\Debug\TrackerClient.exe.embed.manifest" /manifest TrackerClient.dir\Debug\TrackerClient.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         TrackerClient.vcxproj -> C:\mnich2\OpenIGTLink-1\Blds\bin\Debug\TrackerClient.exe
+       FinalizeBuildStatus:
+         Deleting file "TrackerClient.dir\Debug\TrackerClient.unsuccessfulbuild".
+         Touching "TrackerClient.dir\Debug\TrackerClient.lastbuildstate".
+     1>Done Building Project "C:\mnich2\OpenIGTLink-1\Blds\Examples\Tracker\TrackerClient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70
